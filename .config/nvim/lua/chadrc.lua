@@ -1,12 +1,12 @@
--- This file needs to have same structure as nvconfig.lua 
--- https://github.com/NvChad/ui/blob/v3.0/lua/nvconfig.lua
--- Review this file to know all available options.
+-- This file needs to have same structure as nvconfig.lua:
+-- https://github.com/NvChad/ui/blob/v3.0/lua/nvconfig.lua.
+-- Please review this file to know all available options.
 
 ---@type ChadrcConfig
 local M = {}
 
 M.base46 = {
-	theme = "rosepine",
+    theme = "rosepine",
 }
 
 return M
