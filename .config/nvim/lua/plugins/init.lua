@@ -63,35 +63,6 @@ return {
     },
 
     {
-        "yetone/avante.nvim",
-        event = "VeryLazy",
-        version = false, -- Never set this value to "*"!
-        config = function()
-            require("configs.avante")
-        end,
-        dependencies = {
-            "echasnovski/mini.pick",
-            "hrsh7th/nvim-cmp",
-            "ibhagwan/fzf-lua",
-            "MunifTanjim/nui.nvim",
-            "nvim-lua/plenary.nvim",
-            "nvim-telescope/telescope.nvim",
-            "nvim-tree/nvim-web-devicons",
-            "nvim-treesitter/nvim-treesitter",
-            "stevearc/dressing.nvim",
-            "zbirenbaum/copilot.lua",
-            {
-                -- Markdown rendering.
-                "MeanderingProgrammer/render-markdown.nvim",
-                opts = {
-                    file_types = { "markdown", "Avante" },
-                },
-                ft = { "markdown", "Avante" },
-            },
-        },
-    },
-
-    {
         "folke/flash.nvim",
         event = "VeryLazy",
         keys = {
